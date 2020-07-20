@@ -13,3 +13,4 @@ Click==7.0{% endif %}
 {% if cookiecutter.use_pytest == 'y' -%}
 pytest==5.4.3
 pytest-runner==5.2{% endif %}
+recommonmark==0.6.0
