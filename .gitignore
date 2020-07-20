@@ -101,7 +101,7 @@ cookiecutter-pypackage-env/
 .idea/
 
 # Virtual env directory
-.cookiecutter-pypackage.venv/
+.{{cookiecutter.project_slug}}.venv/
 
 
 .python-version
