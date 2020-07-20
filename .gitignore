@@ -60,7 +60,6 @@ pip-delete-this-directory.txt
 
 # Unit test / coverage reports
 htmlcov/
-.tox/
 .coverage
 .coverage.*
 .cache
@@ -100,3 +99,9 @@ cookiecutter-pypackage-env/
 # IDE settings
 .vscode/
 .idea/
+
+# Virtual env directory
+.cookiecutter-pypackage.venv/
+
+
+.python-version
