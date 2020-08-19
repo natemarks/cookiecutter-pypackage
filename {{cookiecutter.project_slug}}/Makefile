@@ -51,11 +51,17 @@ lint: ## check style with flake8
 	flake8 {{ cookiecutter.project_slug }} tests
 
 test: ## run tests quickly with the default Python
+		( \
+       python3 -m venv .venv; \
+       . .venv/bin/activate; \
+       pip install -r requirements_dev.txt; \
 {%- if cookiecutter.use_pytest == 'y' %}
-	pytest
+       pytest; \
 {%- else %}
-	python setup.py test
+       python setup.py test; \
 {%- endif %}
+    )
+
 
 test-all: ## run tests on every Python version with nox
 	nox
