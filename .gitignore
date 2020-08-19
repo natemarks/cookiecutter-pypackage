@@ -20,7 +20,7 @@ __pycache__/
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 
-# Directories potentially created on remote AFP share
+# Directories potentially created on remote AFP shaResolve
 .AppleDB
 .AppleDesktop
 Network Trash Folder
@@ -60,6 +60,10 @@ pip-delete-this-directory.txt
 
 # Unit test / coverage reports
 htmlcov/
+<<<<<<< HEAD
+=======
+.nox/
+>>>>>>> c16ffbc... MIgrating to nox
 .coverage
 .coverage.*
 .cache

@@ -129,14 +129,14 @@ development. Please note this documentation assumes you already have
 
 ::
 
-7. Before raising a pull request you should also run tox. This will run the
+7. Before raising a pull request you should also run nox. This will run the
    tests across different versions of Python:
 
    .. code-block:: bash
 
-        $ tox
+        $ nox
 
-   If you are missing flake8, pytest and/or tox, just `pip install` them into
+   If you are missing flake8, pytest and/or nox, just `pip install` them into
    your virtualenv.
 
 ::
@@ -208,12 +208,12 @@ To write and run your new test, follow these steps:
 
 ::
 
-4. (Optional) Run the tests with tox to ensure that the code changes work with
+4. (Optional) Run the tests with nox to ensure that the code changes work with
    different Python versions:
 
    .. code-block:: bash
 
-        $ tox
+        $ nox
 
 ::
 
