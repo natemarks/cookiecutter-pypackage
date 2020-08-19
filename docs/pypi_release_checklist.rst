@@ -40,7 +40,7 @@ For Every Release
 
     .. code-block:: bash
 
-        tox
+        nox
 
 #. Push the commit:
 
